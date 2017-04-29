@@ -48,7 +48,7 @@ docker run -p 9400:9400 -d <image_id>
 
 ***
 
-### License
+### License - MIT License
 
 Copyright 2017 sundarsy
 
