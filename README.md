@@ -21,6 +21,7 @@ A simple Nodejs and React started kit that can be used to bootstrap your new Rea
 4. Yarn support
 5. npm Shrinkwrap and yarn lock
 6. Single Docker Compose
+7. Webpack production configurations
 
 ***
 #### Usage
