@@ -18,6 +18,8 @@ A simple Nodejs and React started kit that can be used to bootstrap your new Rea
 1. Session management using Redis
 2. Asynchronous Logging mechanism
 3. React state management using Redux
+4. Yarn support
+5. npm Shrinkwrap and yarn lock
 
 ***
 #### Usage
