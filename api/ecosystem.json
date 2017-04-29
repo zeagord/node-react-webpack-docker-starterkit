@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "name": "react-starter",
+      "script": "server.js",
+      "watch": true,
+      "ignore_watch": [
+        "logs",
+        "node_modules",
+        ".tmp",
+        ".idea",
+        ".vagrant",
+        ".git"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "log_file": "./logs/starterkit.log",
+      "out_file": "./logs/starterkit_access.log",
+      "err_file": "./logs/starterkit_error.log"
+    }
+  ]
+}

@@ -1,7 +1,20 @@
-FROM node:6-slim
+FROM node:6-alpine
+
 RUN mkdir -p /usr/src/app
-COPY package.json /usr/src/app/
+
+COPY . /usr/src/app
+
 WORKDIR /usr/src/app/
-RUN npm install --production
+
+# Install PM2
+RUN npm install -g pm2
+
+RUN npm install
+
+WORKDIR public
+
+RUN npm run serve
+
 EXPOSE 9400
-CMD [ "node", "server.js", "${$NODE_ENV}" ]
+
+CMD [ "pm2-docker", "ecosystem.json" ]
