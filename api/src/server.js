@@ -1,3 +1,4 @@
+const routes = require('./routes');
 const path = require('path');
 const compression = require('compression');
 const express = require('express');
@@ -23,6 +24,7 @@ app.set('view engine', 'pug');
 //app.set('view engine', 'html');
 app.use('/build', express.static('build', { redirect: false }));
 
+routes.bind(app); //Express /api routes
 
 app.get('*', (req, res) => {
   res.render(path.join(__dirname, 'index.pug'));

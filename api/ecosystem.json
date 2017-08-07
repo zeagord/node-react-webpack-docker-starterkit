@@ -2,7 +2,7 @@
   "apps": [
     {
       "name": "react-starter",
-      "script": "server.js",
+      "script": "./api/src/server.js",
       "watch": true,
       "ignore_watch": [
         "logs",
