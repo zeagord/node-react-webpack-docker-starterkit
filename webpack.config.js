@@ -22,6 +22,12 @@ module.exports = {
     hot: true,
     inline: true,
     port: 7700,
+	proxy: {
+      '**': 'http://localhost:9400',
+    },
+    noInfo: false,
+    headers: { 'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Credentials': 'true' },
   },
   externals: {
     'cheerio': 'window',
@@ -138,6 +144,16 @@ module.exports = {
         ],
       },
     ],
+	loaders: [
+		{
+			test: /\.js$/,
+			include: [
+				path.resolve(__dirname, './src')
+			],
+			loader: 'eslint',
+			exclude: /node_modules/
+		}
+  ]
   },
   plugins: [HtmlWebpackPluginConfig]
 }

@@ -10,8 +10,9 @@
     "serve": "npm run copy & webpack -p --progress",
     "build": "npm run clean & npm run copy & webpack -p --progress",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
-    "start": "webpack-dev-server --hot --inline",
-    "stop": "pm2 delete react-starter"
+    "start": "node webpack.server.js --env=dev",
+    "stop": "pm2 delete react-starter",
+	"prestart": "pm2 startOrReload api/ecosystem.json"
   },
   "author": "https://github.com/sundarsy",
   "license": "ISC",
