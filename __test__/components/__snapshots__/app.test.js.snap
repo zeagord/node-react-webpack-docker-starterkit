@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check whether App renders correctly usign snapshot renders correctly 1`] = `
+<div
+  className="app"
+>
+  <h1
+    className="ui header"
+  >
+    React Semanti-UI Example
+  </h1>
+  <div
+    className="ui cards"
+  >
+    <div
+      className="ui card"
+      href={undefined}
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          Matthew Harris
+        </div>
+        <div
+          className="meta"
+        >
+          Co-Worker
+        </div>
+        <div
+          className="description"
+        >
+          Matthew is a pianist living in Nashville.
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui card"
+      href={undefined}
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          Jake Smith
+        </div>
+        <div
+          className="meta"
+        >
+          Musicians
+        </div>
+        <div
+          className="description"
+        >
+          Jake is a drummer living in New York.
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui card"
+      href={undefined}
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          Elliot Baker
+        </div>
+        <div
+          className="meta"
+        >
+          Friend
+        </div>
+        <div
+          className="description"
+        >
+          Elliot is a music producer living in Chicago.
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui card"
+      href={undefined}
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="header"
+        >
+          Jenny Hess
+        </div>
+        <div
+          className="meta"
+        >
+          Friend
+        </div>
+        <div
+          className="description"
+        >
+          Jenny is a student studying Media Management at the New School
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

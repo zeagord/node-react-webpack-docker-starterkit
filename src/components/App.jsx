@@ -41,6 +41,7 @@ export default class App extends React.Component {
             description='Jenny is a student studying Media Management at the New School'
           />
         </Card.Group>
+        <div> Test </div>
       </div>
 
     )
