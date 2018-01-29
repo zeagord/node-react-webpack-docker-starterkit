@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="ui inverted menu"
+  >
+    <a
+      className="red active item"
+      onClick={[Function]}
+    >
+      Red
+    </a>
+    <a
+      className="orange item"
+      onClick={[Function]}
+    >
+      Orange
+    </a>
+    <a
+      className="yellow item"
+      onClick={[Function]}
+    >
+      Yellow
+    </a>
+    <a
+      className="olive item"
+      onClick={[Function]}
+    >
+      Olive
+    </a>
+    <a
+      className="green item"
+      onClick={[Function]}
+    >
+      Green
+    </a>
+    <a
+      className="teal item"
+      onClick={[Function]}
+    >
+      Teal
+    </a>
+  </div>
+  <div
+    className="ui inverted menu"
+  >
+    <a
+      className="blue active item"
+      onClick={[Function]}
+    >
+      Blue
+    </a>
+    <a
+      className="violet item"
+      onClick={[Function]}
+    >
+      Violet
+    </a>
+    <a
+      className="purple item"
+      onClick={[Function]}
+    >
+      Purple
+    </a>
+    <a
+      className="pink item"
+      onClick={[Function]}
+    >
+      Pink
+    </a>
+    <a
+      className="brown item"
+      onClick={[Function]}
+    >
+      Brown
+    </a>
+    <a
+      className="grey item"
+      onClick={[Function]}
+    >
+      Grey
+    </a>
+  </div>
+</div>
+`;

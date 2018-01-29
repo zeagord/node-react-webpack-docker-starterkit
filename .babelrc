@@ -3,6 +3,6 @@
 */
 {
     "presets":[
-        "es2015", "react", "airbnb", "stage-1"
+        "env", "react", "airbnb", "stage-1"
     ]
 }
