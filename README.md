@@ -1,10 +1,10 @@
 # node-react-webpack-docker-starterkit
 
-A simple Nodejs and React started kit that can be used to bootstrap your new React application easily.
+A simple minimalistic Nodejs and React started kit that can be used to bootstrap your new React application easily.
 
 ### Features and Modules
 1. React
-2. Webpack2
+2. Webpack 2
 3. Babel
 4. Docker file
 5. pm2
@@ -13,13 +13,15 @@ A simple Nodejs and React started kit that can be used to bootstrap your new Rea
 8. React Semantic-UI
 9. Pug Template engine
 10. Node 6
+11. NPM Shrinkwrap
+12. Mocha and Jest (Remove the unwanted one)
 
 ### Upcoming Fetaures
 1. Session management using Redis
 2. Asynchronous Logging mechanism
 3. React state management using Redux
 4. Yarn support
-5. npm Shrinkwrap and yarn lock
+5. yarn lock
 6. Single Docker Compose
 7. Webpack production configurations
 

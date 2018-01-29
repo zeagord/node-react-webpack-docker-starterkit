@@ -1,6 +1,6 @@
 {
   "name": "node-react-webpack-docker-starterkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A starter kit using node, react, webpack, semantic-ui, docker, pm2, babel",
   "main": "index.js",
   "scripts": {
